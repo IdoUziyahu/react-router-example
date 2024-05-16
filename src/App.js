@@ -9,12 +9,12 @@ function App() {
     <div className="App">
       <h1>My Example App</h1>
       <h3>try to go to paths '/a' and '/b'</h3>
-      <BrowserRouter>
+      {/* <BrowserRouter>
         <Routes>
           <Route path="/a" element={<ComponentA />} />
           <Route path="/b" element={<ComponentB />} />
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter> */}
     </div>
   );
 }
